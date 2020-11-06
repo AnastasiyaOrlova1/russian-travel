@@ -7,6 +7,14 @@
     margin-left: 18px;
 }
 
+.lang-link_active {
+    text-decoration: underline;
+}
+
+.lang-link_notactive {
+    color: #2A2C2F;
+}
+
 @media screen and (min-width: 768px) {
     .lang-link {
         font-size: 24px;
@@ -14,3 +22,8 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .lang-link_notactive {
+        color: #FFFFFF;
+    }
+}
