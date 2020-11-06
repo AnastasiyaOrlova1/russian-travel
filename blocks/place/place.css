@@ -2,7 +2,6 @@
     .place {
         display: grid;
         list-style-type: none;
-        display:inline-grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr;
     }
