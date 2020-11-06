@@ -1,0 +1,14 @@
+.place__website {
+    display: none;
+    }
+    
+
+    @media screen and (min-width: 768px) {
+        .place__website {
+            display: flex;
+            flex-direction: column;
+            color: #ffffff;
+            justify-content: flex-end;
+        }
+    }
+    

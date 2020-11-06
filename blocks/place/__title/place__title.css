@@ -1,0 +1,29 @@
+ .place__title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 1.09;
+        margin-top: 0;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 32px;
+    }
+  
+    
+    @media screen and (min-width: 768px) {
+        .place__title {
+            display: flex;
+            align-content: flex-start;
+            font-size: 42px;
+            line-height: 1.1;
+            margin-bottom: 0;
+            margin-left: 0;
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        .place__title {
+            font-size: 72px;
+            line-height: 1.06;
+        }
+    }
