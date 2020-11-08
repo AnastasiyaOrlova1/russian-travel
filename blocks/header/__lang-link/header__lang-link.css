@@ -1,4 +1,4 @@
-.lang-link {
+.header__lang-link {
     color: #ffffff;
     text-decoration: none;
     line-height: 1.11;
@@ -7,23 +7,13 @@
     margin-left: 18px;
 }
 
-.lang-link_active {
-    text-decoration: underline;
-}
-
-.lang-link_notactive {
-    color: #2A2C2F;
+.header__lang-link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (min-width: 768px) {
-    .lang-link {
+    .header__lang-link {
         font-size: 24px;
         line-height: 1.17;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .lang-link_notactive {
-        color: #FFFFFF;
     }
 }

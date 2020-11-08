@@ -1,0 +1,10 @@
+.intro__list-line {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .intro__list {
+        margin-top: 33px;
+    }
+}

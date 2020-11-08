@@ -1,0 +1,14 @@
+.footer__link-li {
+    margin-bottom: 32px;
+}
+
+.footer__link-li:last-of-type {
+margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__link-li {
+        margin-right: 18px;
+        margin-bottom: 0;
+    }
+}
