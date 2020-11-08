@@ -1,0 +1,7 @@
+.header__lang-link-li {
+    margin-left:18px;
+}
+
+.header__lang-link-li:first-of-type {
+    margin-left: 0;
+}

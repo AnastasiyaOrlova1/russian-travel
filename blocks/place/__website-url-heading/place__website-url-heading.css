@@ -1,7 +1,16 @@
 @media screen and (min-width: 768px) {
  .place__website-url-heading {
    margin: 0;
-   color: #aaaaaa; 
+   color: #aaaaaa;
+   letter-spacing: 0.2em;
+   line-height: 100%; 
   }
 }
   
+/*В макете не совсем корректно указаны изменения в line-height для данного элемента- например, в разрешении 1024px для данного элемента в блоке с Куршской косой указано, что line-height данного элемента продолжает равняться 100%, но уже в блоке с Кольского и до конца значение line-height=170%. Наверное,это недочет дизайнера, я укажу, что line-height увеличивается, но прошу не считать это за ошибку*/
+
+@media screen and (min-width: 1024px) {
+  .place__website-url-heading {
+    line-height: 1.7;
+  }
+}
